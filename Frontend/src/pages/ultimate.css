@@ -1,0 +1,18 @@
+
+.ultimate-section {
+    padding: 20px;
+    margin:  80px auto 20px;
+    border-radius: 20px;
+    width: 70%;
+    height: 200px;
+    background: linear-gradient(270deg, rgba(11,3,1,0.8925770991990546) 0%, rgba(145,28,2,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+  }

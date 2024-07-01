@@ -1,0 +1,59 @@
+.artist-section {
+    padding: 20px;
+    margin:  80px auto 20px;
+    border-radius: 20px;
+    width: 70%;
+    height: 200px;
+    background: linear-gradient(270deg, rgba(11,3,1,0.8925770991990546) 0%, rgba(145,28,2,1) 100%);
+    display: flex;
+    align-items: center;
+    color: #fff;
+    position: relative;
+  }
+
+  .detail-section {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+  }
+
+  .detail-section .verified {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin: 0;
+  } 
+
+  .check-icon {
+    color: #2c36f2;
+  }
+
+  .singer-name {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .song-views {
+    font-size: 16px;
+  }
+
+  .singer-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: auto;
+  }
+
+  @media only screen and (max-width: 960px) {
+    .artist-section {
+      flex-direction: column-reverse;
+    }
+
+    .singer-image {
+      position: absolute;
+      width: 250px;
+      bottom: 140px;
+      right: 25%;
+    }
+  }
