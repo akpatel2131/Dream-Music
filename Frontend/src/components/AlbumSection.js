@@ -1,22 +1,9 @@
 import React, { useState } from "react";
 import "./album-section.css";
 import { IconHeadphones } from "@tabler/icons-react";
-import axios from "axios";
-import ipConfig from "../ipConfig.json";
 
 function AlbumSection({ setSelectedSongs, data }) {
-  // const [data, setData] = useState([]);
   const [activeIndex, setActiveIndex] = useState(0);
-
-  // useEffect(() => {
-  //   axios.get(`${ipConfig.endpoint}/api/music`, {
-  //     headers: {
-  //       Authorization: `Bearer ${localStorage.getItem("authToken")}`
-  //     }
-  //   }).then((response) => {
-  //     setData(response.data)
-  //   })
-  // },[])
 
   return (
     <section className="album-section">

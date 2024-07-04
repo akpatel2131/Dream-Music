@@ -8,11 +8,6 @@ import {
   FastForwardRounded,
   FastRewindRounded,
 } from "@mui/icons-material";
-  
-// import React, { useEffect, useRef } from 'react';
-// import { Box, Slider, Typography, IconButton } from '@mui/material';
-// import { useTheme, styled } from '@mui/material/styles';
-// import { FastRewindRounded, PlayArrowRounded, PauseRounded, FastForwardRounded } from '@mui/icons-material';
 
 const Widget = styled("div")(({ theme }) => ({
   padding: 16,
@@ -88,8 +83,6 @@ function MusicPlayerSlider({songs}) {
   }
 
   const mainIconColor = theme.palette.mode === "dark" ? "#fff" : "#000";
-  const lightIconColor =
-    theme.palette.mode === "dark" ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)";
 
   return (
     <Box sx={{ width: "100%", overflow: "hidden" }}>

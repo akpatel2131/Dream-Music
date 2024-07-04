@@ -2,7 +2,7 @@ import { TextField, Button } from "@mui/material";
 import "./loginAndRegister.css";
 import ipConfig from "../ipConfig.json";
 import { useNavigate } from "react-router-dom";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 import { useState } from "react";
 import axios from "axios";
 
